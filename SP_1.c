@@ -148,8 +148,8 @@ int main() {
 
     scanf("%s",ch);
 
-    lnt = .5*strlen(ch);
-    for(i = 0; i < lnt; i++){
+    lnt = strlen(ch);
+    for(i = 0; i < lnt/2; i++){
         if(ch[i] != ch[lnt-i-1]){
             count++;
             break;
